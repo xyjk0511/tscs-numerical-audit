@@ -1,0 +1,38 @@
+{
+  "scientific_and_code_members_verified": 8644,
+  "license_counts": {
+    "LicenseRef-All-Rights-Reserved": 16,
+    "CC-BY-SA-4.0": 6312,
+    "CC-BY-4.0": 2316
+  },
+  "sanitized_files": 11,
+  "assets": [
+    {
+      "name": "lssm-native-markers-v1.0.0.zip",
+      "members": 2316,
+      "sha256": "a7c96d9714125a02180f166fb41ea8e6abdacfc11ec0aaf19460d9af39f765f0",
+      "all_members_match_global_and_asset_manifests": true
+    },
+    {
+      "name": "mesh-fields-specs-v1.0.0.zip",
+      "members": 9,
+      "sha256": "a2f578959daab08caaf187f2b19d4104af6574ba2992efdc6ee095506380a9ec",
+      "all_members_match_global_and_asset_manifests": true
+    },
+    {
+      "name": "potential-profiles-v1.0.0.zip",
+      "members": 6278,
+      "sha256": "e2227590283e86ca1ffa4112d99edeb26d4769b561d901e8cb93bace962b14b0",
+      "all_members_match_global_and_asset_manifests": true
+    },
+    {
+      "name": "registered-ensembles-v1.0.0.zip",
+      "members": 4,
+      "sha256": "21fdaf784f99f54f505fe0c0b28f0aad7d9088e28085756abdd598f6d639a6f2",
+      "all_members_match_global_and_asset_manifests": true
+    }
+  ],
+  "complete_manifest_coverage": true,
+  "scope": "actual archive/member hashes, ZIP CRC, allowed text/JSON/NPZ metadata; HDF5 dataset and attribute equality checked during build",
+  "limitations": "not an institutional privacy/ethics determination; full FEM reconstruction is not claimed"
+}

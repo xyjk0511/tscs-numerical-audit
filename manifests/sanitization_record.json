@@ -1,0 +1,237 @@
+{
+  "allowlist": "absolute local-path strings only",
+  "files": [
+    {
+      "path": "fem/place_lumbosacral_roots.py",
+      "frozen_source_sha256": "cddab5bdce2fa2f94935a9c1e8f9424c8c498e7690b13bc096781713ec3b13e5",
+      "public_sha256": "130e037e6f0c9ce8a97e6bdfed510cdc291f71576663efd3b82a1dbd416a2cd5",
+      "changed_fields": [
+        {
+          "field": "$.code_string_line_69",
+          "original_value_sha256": "7ea8fc3cd8dcd21533427903b059126bb53855c13b724ed675c1a285757ca3fc"
+        }
+      ],
+      "scientific_payload_unchanged": true
+    },
+    {
+      "path": "fem/sample_level_anchored_root_fields.py",
+      "frozen_source_sha256": "22ea0228c988fde1c0eb503375ce549110c801f313ca0178900b46565c67230a",
+      "public_sha256": "1fca7d4a4c882316ee7c204dbfcb3a9ab1ec0748a7e2d37fa92927aad146f7c5",
+      "changed_fields": [
+        {
+          "field": "$.code_string_line_72",
+          "original_value_sha256": "b24602ef5d9210bd9a750b1d5afa40ef7165d03b9b0c4f48cb032f679338fb5c"
+        }
+      ],
+      "scientific_payload_unchanged": true
+    },
+    {
+      "path": "fem/sweep_root_roll.py",
+      "frozen_source_sha256": "ddf3556951507c8531ddefa74d20c0bee70d1dd78a898865993df536cd36b22b",
+      "public_sha256": "9a01a1aeace7c9f072e5af283756f313e3e1712414e0aaea170334a8659ac0a7",
+      "changed_fields": [
+        {
+          "field": "$.code_string_line_67",
+          "original_value_sha256": "50e603c9171a6f7e3002b2e2c7c81867ec69ee3bcdb4361834aea327ae509a2d"
+        },
+        {
+          "field": "$.code_string_line_74",
+          "original_value_sha256": "b24602ef5d9210bd9a750b1d5afa40ef7165d03b9b0c4f48cb032f679338fb5c"
+        }
+      ],
+      "scientific_payload_unchanged": true
+    },
+    {
+      "path": "mesh-fields-specs/field-000mm.h5",
+      "frozen_source_sha256": "c97b3d6eb81834f6a2a50e0dcd4d59944b7ef7b8f254888a5f15a50f602f73b1",
+      "public_sha256": "0fae4b177ef893f36c1b74a4266a2f73d3fe5762021500d13c8c8d1af7ed22c5",
+      "changed_fields": [
+        {
+          "field": "/.attrs.provenance_json.embedded_json.material_map_path",
+          "original_value_sha256": "a3c869dfec89518ae670b5ca5b820cd996412a7b37784d32d4650a6e8df03b49"
+        },
+        {
+          "field": "/.attrs.provenance_json.embedded_json.mesh_artifact_path",
+          "original_value_sha256": "6f63170d6ddecbdfc5e6edc660d77ffa9367edecc2d2dad55ef1629f77b04e7d"
+        },
+        {
+          "field": "/.attrs.provenance_json.embedded_json.mesh_receipt_path",
+          "original_value_sha256": "a40068035e97718435784cc1a52e6c4aa5993bf6ee7adbe0d21bd01ff8f681ca"
+        }
+      ],
+      "scientific_payload_unchanged": true
+    },
+    {
+      "path": "mesh-fields-specs/field-010mm.h5",
+      "frozen_source_sha256": "5dbcad4830445101700101da4feac0f6758c04c3c2b99465c5ef1d08e2a4edd8",
+      "public_sha256": "3278f0b9e6483b96d73221686c5564eae97eb381fad5e3218788999299aefe51",
+      "changed_fields": [
+        {
+          "field": "/.attrs.provenance_json.embedded_json.material_map_path",
+          "original_value_sha256": "bf341104523b9e942efebd99149f7b8f0cfe968a84160aae9a6a8db6fb174230"
+        },
+        {
+          "field": "/.attrs.provenance_json.embedded_json.mesh_artifact_path",
+          "original_value_sha256": "06e11cb703cd3597a0b9b69e00039918327f85f78b0fbbcfbde6b9bfe8f49db8"
+        },
+        {
+          "field": "/.attrs.provenance_json.embedded_json.mesh_receipt_path",
+          "original_value_sha256": "990a0c1c88740f33a5453b075bd0a9dd688528c3d9ffa570517c6b27b94567e7"
+        }
+      ],
+      "scientific_payload_unchanged": true
+    },
+    {
+      "path": "mesh-fields-specs/field-020mm.h5",
+      "frozen_source_sha256": "2c74365e69973e4e18171f8bd6be54e8f326735f962ecb5790d61d41a7845cbf",
+      "public_sha256": "2c0936d47cfbe1a6b0d2b71412666b1dcf3e8292860a53963e32b9846b08d602",
+      "changed_fields": [
+        {
+          "field": "/.attrs.provenance_json.embedded_json.material_map_path",
+          "original_value_sha256": "bf341104523b9e942efebd99149f7b8f0cfe968a84160aae9a6a8db6fb174230"
+        },
+        {
+          "field": "/.attrs.provenance_json.embedded_json.mesh_artifact_path",
+          "original_value_sha256": "06e11cb703cd3597a0b9b69e00039918327f85f78b0fbbcfbde6b9bfe8f49db8"
+        },
+        {
+          "field": "/.attrs.provenance_json.embedded_json.mesh_receipt_path",
+          "original_value_sha256": "990a0c1c88740f33a5453b075bd0a9dd688528c3d9ffa570517c6b27b94567e7"
+        }
+      ],
+      "scientific_payload_unchanged": true
+    },
+    {
+      "path": "mesh-fields-specs/field-100mm.h5",
+      "frozen_source_sha256": "b923606a0c2a6884beac4134604f608ed8408ceb6d60449d262b8b832a2479e7",
+      "public_sha256": "040b4d5fa71b49653477916d8d046ddb3f9c9d4cc756f30aa571950f4ff5b54a",
+      "changed_fields": [
+        {
+          "field": "/.attrs.provenance_json.embedded_json.material_map_path",
+          "original_value_sha256": "a3c869dfec89518ae670b5ca5b820cd996412a7b37784d32d4650a6e8df03b49"
+        },
+        {
+          "field": "/.attrs.provenance_json.embedded_json.mesh_artifact_path",
+          "original_value_sha256": "6f63170d6ddecbdfc5e6edc660d77ffa9367edecc2d2dad55ef1629f77b04e7d"
+        },
+        {
+          "field": "/.attrs.provenance_json.embedded_json.mesh_receipt_path",
+          "original_value_sha256": "a40068035e97718435784cc1a52e6c4aa5993bf6ee7adbe0d21bd01ff8f681ca"
+        }
+      ],
+      "scientific_payload_unchanged": true
+    },
+    {
+      "path": "registered-ensembles/ensemble-000mm.json",
+      "frozen_source_sha256": "1cffdb7bd13ac7918a7a28868377bb2a1e00543ecdf0c7bc80342b96debd6fbf",
+      "public_sha256": "5bd9db39fc3c22331726e45e832d32c81d7d6a8af461f50b461e17a95f5c75a5",
+      "changed_fields": [
+        {
+          "field": "$.provenance.field.path",
+          "original_value_sha256": "c645cf70d16dfa40dd3567fd946422d7e694007162892b7a1a83e30879e8b33a"
+        },
+        {
+          "field": "$.provenance.markers.path",
+          "original_value_sha256": "30acdd666a6f177e73ac403e40b5c0dba7c114ccdb83c22d84f1950bff473813"
+        },
+        {
+          "field": "$.provenance.mesh.path",
+          "original_value_sha256": "6f63170d6ddecbdfc5e6edc660d77ffa9367edecc2d2dad55ef1629f77b04e7d"
+        },
+        {
+          "field": "$.provenance.montage_spec.path",
+          "original_value_sha256": "21f7c157dd315164c5519d78d6d7de9e794347a5f868b64843e7bcccb57e8177"
+        },
+        {
+          "field": "$.provenance.prior_contract.path",
+          "original_value_sha256": "0fe5014ca5cfafa9639a976789f0719058182ff3a99af2b01a18ce3fb7ff3236"
+        }
+      ],
+      "scientific_payload_unchanged": true
+    },
+    {
+      "path": "registered-ensembles/ensemble-010mm.json",
+      "frozen_source_sha256": "1d5e6bc2a78cb92f74025dbaef079120aba80d3591d3c2dfb391da4b034a2db7",
+      "public_sha256": "407da98c997564c77f5a705a5299a0f3831049ee9c029af11ea183a77269c1c6",
+      "changed_fields": [
+        {
+          "field": "$.provenance.field.path",
+          "original_value_sha256": "1eb6fad5a8348e468484ead08ea4cf0baa2df1aede7d3cd67cc89ccd5c3971cf"
+        },
+        {
+          "field": "$.provenance.markers.path",
+          "original_value_sha256": "3ced8167f3bc0982cf922a96ca9441187770819fa2df6d667cffbef622e857a0"
+        },
+        {
+          "field": "$.provenance.mesh.path",
+          "original_value_sha256": "06e11cb703cd3597a0b9b69e00039918327f85f78b0fbbcfbde6b9bfe8f49db8"
+        },
+        {
+          "field": "$.provenance.montage_spec.path",
+          "original_value_sha256": "602de0dc780c1629ac8fca83ac53b834a14ace4697a5db76aafe16f59980fec4"
+        },
+        {
+          "field": "$.provenance.prior_contract.path",
+          "original_value_sha256": "d33f8e60ff536c0f138a5c3564a87ee621634be50499103a4a5e1c0de2866bc1"
+        }
+      ],
+      "scientific_payload_unchanged": true
+    },
+    {
+      "path": "registered-ensembles/ensemble-020mm.json",
+      "frozen_source_sha256": "07ed943a27090f94d10c188231fa6ae9036a9e90c3cd0565819db60fa616514f",
+      "public_sha256": "c13b5652774fdb82d50e0656da5501a66997da70925516eed9214a2587ee7de4",
+      "changed_fields": [
+        {
+          "field": "$.provenance.field.path",
+          "original_value_sha256": "cd1beacc0b71e1e3707baacd9501efc4625848f2e85cfdca45b8ded681ac3961"
+        },
+        {
+          "field": "$.provenance.markers.path",
+          "original_value_sha256": "3ced8167f3bc0982cf922a96ca9441187770819fa2df6d667cffbef622e857a0"
+        },
+        {
+          "field": "$.provenance.mesh.path",
+          "original_value_sha256": "06e11cb703cd3597a0b9b69e00039918327f85f78b0fbbcfbde6b9bfe8f49db8"
+        },
+        {
+          "field": "$.provenance.montage_spec.path",
+          "original_value_sha256": "ed22db96849df16640a8490321caaf58f02d299e7fcd05eed5726b1ec44ad8ed"
+        },
+        {
+          "field": "$.provenance.prior_contract.path",
+          "original_value_sha256": "d33f8e60ff536c0f138a5c3564a87ee621634be50499103a4a5e1c0de2866bc1"
+        }
+      ],
+      "scientific_payload_unchanged": true
+    },
+    {
+      "path": "registered-ensembles/ensemble-100mm.json",
+      "frozen_source_sha256": "d3f97cbeb9a0110f6890d6ddc7573cad9dbcb00bbe79759efc0af70ec13dcfce",
+      "public_sha256": "13b236ab1a32fd9643fea5af2db0d2510295abf86ccbb5b59cb5726c4474125f",
+      "changed_fields": [
+        {
+          "field": "$.provenance.field.path",
+          "original_value_sha256": "573b1c104c3412f6a329251890fec0cd6af6dd2ebd35a341562794cdb45d9dba"
+        },
+        {
+          "field": "$.provenance.markers.path",
+          "original_value_sha256": "30acdd666a6f177e73ac403e40b5c0dba7c114ccdb83c22d84f1950bff473813"
+        },
+        {
+          "field": "$.provenance.mesh.path",
+          "original_value_sha256": "6f63170d6ddecbdfc5e6edc660d77ffa9367edecc2d2dad55ef1629f77b04e7d"
+        },
+        {
+          "field": "$.provenance.montage_spec.path",
+          "original_value_sha256": "0015475ad1b47f62b438f94331d5293d0090076eaf11e051e7dc56f43386f624"
+        },
+        {
+          "field": "$.provenance.prior_contract.path",
+          "original_value_sha256": "0fe5014ca5cfafa9639a976789f0719058182ff3a99af2b01a18ce3fb7ff3236"
+        }
+      ],
+      "scientific_payload_unchanged": true
+    }
+  ]
+}

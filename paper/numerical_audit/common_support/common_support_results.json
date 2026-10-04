@@ -1,0 +1,154 @@
+{
+  "schema": "common-physical-support-v1",
+  "binding_sha256": "3a70bcd8f0fa7f71f1a80d9b921404750ddbba13f4387e89e52afe31bc6ffde3",
+  "scope": "deterministic numerical descriptors from frozen paths and fields; path/scenario rows are not independent human observations",
+  "units": {
+    "raw_peak_and_change": "V/(A*m^2)",
+    "normalized_share_change": "percentage points"
+  },
+  "complete_vector_count": 29280,
+  "exclusion_count": 3540,
+  "support": {
+    "pairs": [
+      {
+        "first": 0,
+        "second": 10,
+        "variant_native_matched": {
+          "original_native": 780,
+          "common_endpoint": 780,
+          "common_endpoint_central": 780
+        },
+        "all_variant_intersection": 780,
+        "support_differs_across_variants": false
+      },
+      {
+        "first": 0,
+        "second": 20,
+        "variant_native_matched": {
+          "original_native": 780,
+          "common_endpoint": 780,
+          "common_endpoint_central": 780
+        },
+        "all_variant_intersection": 780,
+        "support_differs_across_variants": false
+      },
+      {
+        "first": 0,
+        "second": 100,
+        "variant_native_matched": {
+          "original_native": 780,
+          "common_endpoint": 780,
+          "common_endpoint_central": 780
+        },
+        "all_variant_intersection": 780,
+        "support_differs_across_variants": false
+      },
+      {
+        "first": 10,
+        "second": 20,
+        "variant_native_matched": {
+          "original_native": 780,
+          "common_endpoint": 780,
+          "common_endpoint_central": 780
+        },
+        "all_variant_intersection": 780,
+        "support_differs_across_variants": false
+      },
+      {
+        "first": 10,
+        "second": 100,
+        "variant_native_matched": {
+          "original_native": 780,
+          "common_endpoint": 780,
+          "common_endpoint_central": 780
+        },
+        "all_variant_intersection": 780,
+        "support_differs_across_variants": false
+      },
+      {
+        "first": 20,
+        "second": 100,
+        "variant_native_matched": {
+          "original_native": 780,
+          "common_endpoint": 780,
+          "common_endpoint_central": 780
+        },
+        "all_variant_intersection": 780,
+        "support_differs_across_variants": false
+      }
+    ]
+  },
+  "primary_discriminator": {
+    "support_mode": "variant_native",
+    "first": 0,
+    "second": 100,
+    "segment": "L4",
+    "predeclared_sign_pattern": [
+      "negative",
+      "negative",
+      "positive"
+    ],
+    "variants": {
+      "original_native": {
+        "widths_mm": [
+          2,
+          5,
+          10
+        ],
+        "equal_geometry_share_change_pp": [
+          -0.7101857473761617,
+          -0.2420252269651432,
+          0.4168222752505646
+        ],
+        "signs": [
+          "negative",
+          "negative",
+          "positive"
+        ]
+      },
+      "common_endpoint": {
+        "widths_mm": [
+          2,
+          5,
+          10
+        ],
+        "equal_geometry_share_change_pp": [
+          -0.5678214340404651,
+          -0.17850419410095272,
+          0.4168222752505646
+        ],
+        "signs": [
+          "negative",
+          "negative",
+          "positive"
+        ]
+      },
+      "common_endpoint_central": {
+        "widths_mm": [
+          2,
+          5,
+          10
+        ],
+        "equal_geometry_share_change_pp": [
+          -0.7559020192579985,
+          -0.5292151647759218,
+          0.4168222752505646
+        ],
+        "signs": [
+          "negative",
+          "negative",
+          "positive"
+        ]
+      }
+    },
+    "support_complete": true,
+    "condition": "continue_bounded_scale_result",
+    "no_alternative_segment_selection": true
+  },
+  "outputs": {
+    "complete_vectors": "complete_vectors.csv",
+    "comparisons": "comparisons.csv",
+    "geometry_means": "geometry_means.csv",
+    "exclusions": "exclusions.jsonl"
+  }
+}

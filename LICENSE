@@ -1,0 +1,10 @@
+This repository has file-level rights, not one repository-wide license.
+
+Project source code and tests: copyright 2026 Buchan Liang, all rights reserved.
+The code is made publicly viewable for inspection; no open-source license is granted.
+
+LSSM-native marker data: CC BY 4.0.
+Alvar-derived or mixed numerical data: CC BY-SA 4.0, to the extent copyright
+or database rights apply.
+
+See THIRD_PARTY_NOTICES.md, manifests/release_manifest.json and LICENSES/.

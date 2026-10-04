@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the source datasets and this preparation-stage numerical audit."
+title: "Spatial scale and normalization alter segmental comparisons in a transcutaneous spinal cord stimulation model"
+type: dataset
+version: 1.0.0
+authors:
+  - family-names: Liang
+    given-names: Buchan
+    affiliation: "University of California, Davis"
+repository-code: "https://github.com/xyjk0511/tscs-numerical-audit"
+url: "https://github.com/xyjk0511/tscs-numerical-audit/releases/tag/v1.0.0"

@@ -1,0 +1,27 @@
+{
+  "binding_sha256": "3a70bcd8f0fa7f71f1a80d9b921404750ddbba13f4387e89e52afe31bc6ffde3",
+  "profile_files_verified": 5880,
+  "path_files_verified": 392,
+  "scalar_descriptors_verified": 211680,
+  "maximum_absolute_peak_difference": 2.2209860617294908e-09,
+  "maximum_relative_peak_difference": 8.79416891173733e-12,
+  "complete_vectors_verified": 29280,
+  "aggregate_comparisons_verified": 378,
+  "maximum_share_comparison_difference_pp": 6.225575610585565e-14,
+  "maximum_raw_comparison_difference": 4.4792614062316716e-11,
+  "geometry_rows_verified": 4914,
+  "geometry_sign_counts_verified": true,
+  "peak_rtol": 5e-12,
+  "peak_atol_v_per_a_m2": 1e-08,
+  "share_atol_pp": 1e-08,
+  "method": "independent bin-by-bin trapezoidal integration; native bin prefixes for common endpoint; independent complete vectors, support intersection and arithmetic geometry weighting",
+  "scope": "local profile-only numerical replay; no anatomy, locator, FEM solve, physiological or population validation",
+  "verifier_sha256": "b08e717f77c09b2cf49837c4a5e3821f85777399128fcf16b75467a9733ae675",
+  "aggregate_sha256": {
+    "complete_vectors.csv": "a8953e639e966ac14073ba44ed43a61f2ce9cb0a3a1fc6a3dce9908d3c7e905f",
+    "comparisons.csv": "4cacb7f1c4ebf20e465b0bafadd89aa825d0a663b7d2012e4430143dde7bb7df",
+    "geometry_means.csv": "2867c253cc5a78262db3e15702b89d5dd7a9be0c460e0b7175bb1d44e348796b",
+    "exclusions.jsonl": "af68ab006c7c0559bc406635e5cd11c2c5b2ee4153e20de4a4bfbe5c93999620",
+    "common_support_results.json": "06b2de53d577a818be0a73553606302ed53374eb7b4feae00c08f7c4c26ab8fa"
+  }
+}

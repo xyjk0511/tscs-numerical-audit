@@ -1,0 +1,8 @@
+{
+  "source_manifest_sha256": "269c1d6119f462807e50e31f1876e15218135631a00ae301989a1be236fa652b",
+  "verified_sample_files": 392,
+  "planned_vectors": 10080,
+  "complete_vectors": 9840,
+  "units": "V/(A*m^2)",
+  "scope": "derived AF values only; no anatomical coordinates or new FEM solve"
+}

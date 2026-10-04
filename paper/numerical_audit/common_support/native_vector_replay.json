@@ -1,0 +1,12 @@
+{
+  "complete_vectors": 9840,
+  "individual_peaks_compared": 68880,
+  "maximum_absolute_difference": 1.1641532182693481e-10,
+  "maximum_relative_difference": 3.969007959606904e-15,
+  "non_bit_identical_peaks": 44937,
+  "rtol": 5e-12,
+  "atol": 1e-08,
+  "floating_expression_difference": "frozen core divides each first difference by b, then divides its difference by b; additive core divides the second difference by b squared",
+  "original_vector_sha256": "36fbb05615b1fc01f6df18cc653fc4456ef6da758b3e8f69ea78fa1631f48844",
+  "scope": "native descriptors compared with all portable original complete vectors; fixed pre-run replay tolerance retained"
+}

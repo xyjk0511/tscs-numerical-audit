@@ -1,0 +1,49 @@
+{
+  "scope": "Primary-source licensing and original-study ethics evidence; not an institutional determination for this secondary analysis",
+  "lssm_original_study": {
+    "article_doi": "10.1038/s41597-024-03919-4",
+    "article_url": "https://www.nature.com/articles/s41597-024-03919-4",
+    "read_scope": "Methods/Participants, Data Records, and Rights and permissions sections",
+    "ethics_committee": "Fudan University",
+    "approval_number": "FE23166I",
+    "consent_scope_reported": "written informed consent including open sharing in anonymized form",
+    "article_license": "CC BY-NC-ND 4.0",
+    "dataset_description_url": "https://ndownloader.figshare.com/files/48013579",
+    "dataset_description_license": "CC BY 4.0",
+    "source_acknowledgement": "This dataset was obtained from the figshare database.",
+    "caution": "Original-study approval is not approval or exemption for the present secondary analysis; article and repository-file licenses are distinct"
+  },
+  "lssm_repository_items": [
+    {"title": "Markers, QC results and generated models", "doi": "10.6084/m9.figshare.26403442.v1", "verified_via": "https://api.figshare.com/v2/articles/26403442", "license": "CC BY 4.0", "files": ["anatqc.zip", "markers.zip", "model.zip", "inter-annotators variability.xlsx"]},
+    {"title": "Raw MRI data", "doi": "10.6084/m9.figshare.26403595.v1", "verified_via": "https://api.figshare.com/v2/articles/26403595", "license": "CC BY 4.0", "files": ["rawdata.zip"]},
+    {"title": "Dataset descriptions", "doi": "10.6084/m9.figshare.26403565.v1", "verified_via": "https://api.figshare.com/v2/articles/26403565", "license": "CC BY 4.0", "files": ["dataset_description.json"]},
+    {"title": "README", "doi": "10.6084/m9.figshare.26403262.v1", "verified_via": "https://api.figshare.com/v2/articles/26403262", "license": "CC BY 4.0", "files": ["README"]}
+  ],
+  "alvar": {
+    "doi": "10.5281/zenodo.14901199",
+    "version": "17.0.0",
+    "verified_via": ["https://zenodo.org/api/records/14901199", "https://zenodo.org/api/records/14901199/files/README.md/content"],
+    "read_scope": "repository metadata and complete 2005-byte README; no new anatomical data download",
+    "dataset_filename": "Alvar_v17_0_0.h5",
+    "dataset_license": "CC BY-SA 4.0",
+    "dataset_credit": "Otto Kangasmaa, 2025",
+    "example_filename": "Alvar_v17_example.m",
+    "example_license": "MIT",
+    "caution": "The example-code license is not an alternative license for the anatomical dataset"
+  },
+  "source_access_recheck": {
+    "scope": "live original-repository API metadata; no raw MRI or anatomy download performed",
+    "verified_api_urls": ["https://api.figshare.com/v2/articles/26403442", "https://api.figshare.com/v2/articles/26403595", "https://zenodo.org/api/records/14901199"],
+    "alvar_model_file": "Alvar_v17_0_0.h5",
+    "lssm_geometry_files": ["markers.zip", "model.zip"],
+    "underlying_mri_file": "rawdata.zip",
+    "reader_access": "download source datasets from the original public repositories using the manuscript DOIs",
+    "boundary": "these source archives do not distribute this project's generated fields, registered trajectories, locator cache or sampled potential profiles"
+  },
+  "remaining": [
+    "Author or institutional determination for this secondary reuse",
+    "File-level mapping and attribution for any derived anatomical or field release",
+    "A reviewer-accessible archive for the exact bound FEM fields and paths",
+    "No manuscript or dataset was externally submitted or publicly deposited by this check"
+  ]
+}

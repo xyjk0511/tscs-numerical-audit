@@ -1,0 +1,117 @@
+{
+  "schema": "common-physical-support-v1",
+  "source_artifact_manifest_sha256": "269c1d6119f462807e50e31f1876e15218135631a00ae301989a1be236fa652b",
+  "publication_results_sha256": "2a7619a34e459a33aaaab1f80f4d7c81281ccd4ff0bdae7e310291a0a19f16b1",
+  "inputs": [
+    {
+      "path": "prepared.json",
+      "sha256": "ba52849612d3436592d6744dde46fe84d4d421d50891c7093b194a9f57f48b75",
+      "artifact_manifest_bound": true
+    },
+    {
+      "path": "contexts.json",
+      "sha256": "b34dfb7202427ae55e08dbf68a41155aaefb73b8c92e0024ceea65b2f5dfebc3",
+      "artifact_manifest_bound": true
+    },
+    {
+      "path": "baseline-paths.npz",
+      "sha256": "d35cc7afd4f8e8adc70a5dfd0f0713c047d4d48bd13a8a3c1f8c98ae38683d37",
+      "artifact_manifest_bound": true
+    },
+    {
+      "path": "points.npy",
+      "sha256": "2f606e4afd289f1baf24abd0548915016bb0fe069821325f496b28f2fe4f7a64",
+      "artifact_manifest_bound": true
+    },
+    {
+      "path": "locator-cells.npy",
+      "sha256": "e43c91788a5ffc2095d2735774d55f29bca35fbc1b05da61e4b9cd84fa8d91b0",
+      "artifact_manifest_bound": true
+    },
+    {
+      "path": "geometry-only.h5",
+      "sha256": "2dce8e30c2023e3463ec1c23f7c15f9299716f6fa610701a1f132e2daeb6028c",
+      "artifact_manifest_bound": true
+    },
+    {
+      "path": "samples-0.125mm/run-meta.json",
+      "sha256": "f48d72f839a8984802a75fe3115902451ca34abb86d415cc99b1d33493072cc9",
+      "artifact_manifest_bound": true
+    },
+    {
+      "path": "potential-0.npy",
+      "sha256": "b5cff440a309a0fa46d03f83560a9531cf7c4b56c49ddda6bd4b62ded81f704c",
+      "artifact_manifest_bound": true
+    },
+    {
+      "path": "potential-10.npy",
+      "sha256": "041947a897795e1f8a984de077a654888522574254b8fd5215ff2b651f85df62",
+      "artifact_manifest_bound": true
+    },
+    {
+      "path": "potential-20.npy",
+      "sha256": "857f04245e8c11b3029a7f677ff7af32e74847c4595240f162fde63809bc1961",
+      "artifact_manifest_bound": true
+    },
+    {
+      "path": "potential-100.npy",
+      "sha256": "d9d761348d2e710ba1bb902961f42785cc5f98061a250a61861cd3d41f6ab9cc",
+      "artifact_manifest_bound": true
+    }
+  ],
+  "code": {
+    "paper/numerical_audit/run_common_support.py": "0e18ab587805210a30bfb837af22aca5822bbb5aca3ecba1b956a7aae7fd26fe",
+    "analysis/no_new_mri_functional_calibration/common_support.py": "9305db81dbbbb5fc7850339b106c7684b6fa1606a8778f975dd5d73eb31ff16f",
+    "analysis/no_new_mri_functional_calibration/path_numerics_v2.py": "17149f71b4d09de305224c94a94622c8826381e9a12d138b96e62fab5fd9dbea",
+    "analysis/no_new_mri_functional_calibration/publication_recompute.py": "6878f144139bc521e8be1799af084f83b5d82093fc2c850ec93fd186b81ca823",
+    "analysis/no_new_mri_functional_calibration/sample_root_ensemble.py": "44d69d9c46d27fc6ef1e48daef42c7ee74d99ba4805e684f8f65bcb8c1252756",
+    "fem/place_lumbosacral_roots.py": "cddab5bdce2fa2f94935a9c1e8f9424c8c498e7690b13bc096781713ec3b13e5",
+    "fem/sample_level_anchored_root_fields.py": "22ea0228c988fde1c0eb503375ce549110c801f313ca0178900b46565c67230a",
+    "paper/numerical_audit/matched_analysis.py": "90a06dd2569120d22d05d0a4bd0181c051d03b91362edb160213b7b3bf5d044b"
+  },
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.5.2",
+    "scipy": "1.18.0",
+    "h5py": "3.16.0"
+  },
+  "parameters": {
+    "spacing_m": 0.000125,
+    "widths_m": [
+      0.002,
+      0.005,
+      0.01
+    ],
+    "minimum_complete_bins_per_width_per_variant": 5,
+    "common_endpoint": {
+      "formula": "0.010 * floor(L / 0.010) with only 8-epsilon endpoint representation tolerance",
+      "quantum_m": 0.01,
+      "never_extrapolate": true
+    },
+    "central_search_interval_m": [
+      0.015,
+      "L_common-0.015"
+    ],
+    "variants": {
+      "original_native": "full profile; complete bins per width; all native AF centres",
+      "common_endpoint": "same-origin integration through L_common; all native AF centres",
+      "common_endpoint_central": "same common bins; native centres within inclusive central interval"
+    },
+    "replay": {
+      "rtol": 5e-12,
+      "atol_v_per_a_m2": 1e-08
+    },
+    "normalization": "subtract the first potential sample independently for each field",
+    "primary_discriminator": {
+      "first_offset_mm": 0,
+      "second_offset_mm": 100,
+      "segment": "L4",
+      "required_width_signs_2_5_10mm": [
+        "negative",
+        "negative",
+        "positive"
+      ]
+    }
+  },
+  "binding_sha256": "3a70bcd8f0fa7f71f1a80d9b921404750ddbba13f4387e89e52afe31bc6ffde3"
+}

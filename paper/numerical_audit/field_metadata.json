@@ -1,0 +1,80 @@
+{
+  "mesh_sha256": "63e0cadcc4eb53f95edb1e887d3e9845553c736317c00bf4e7d523197f533765",
+  "material_map_sha256": "10b5ae4551990bcae9bb46d7fa1b7a90bd0dd01369116d9b363af2f98a568ef4",
+  "material_database_doi": "10.13099/VIP21000-05-0",
+  "fields": [
+    {
+      "offset_mm": 0,
+      "field_sha256": "c97b3d6eb81834f6a2a50e0dcd4d59944b7ef7b8f254888a5f15a50f602f73b1",
+      "spec_sha256": "d007e6d0aa7eba79fcf200d95a39ef76dc40a00ab3eeaaca068e5173f8ab491c",
+      "solver": "DOLFINx assembly + SciPy CG with pinned gauge and weighted-mean correction",
+      "solver_tolerances": {
+        "internal_cg_rtol": 5e-09,
+        "internal_cg_atol": 1e-12,
+        "maxiter": 40000,
+        "preconditioner": "pyamg_smoothed_aggregation_v_cycle"
+      },
+      "dofs": 1674731,
+      "tetrahedra": 8124909,
+      "conductivity_model": "isotropic_scalar",
+      "relative_residual": 7.246560103999956e-09,
+      "relative_current_balance": 3.469446951953614e-17,
+      "convergence_evidence": false
+    },
+    {
+      "offset_mm": 10,
+      "field_sha256": "5dbcad4830445101700101da4feac0f6758c04c3c2b99465c5ef1d08e2a4edd8",
+      "spec_sha256": "7b70ea6668b303021d7e4af23c68335105ddf794b6e7fd6c59a5dcc7df9a0cd6",
+      "solver": "DOLFINx assembly + SciPy CG with pinned gauge and weighted-mean correction",
+      "solver_tolerances": {
+        "internal_cg_rtol": 5e-09,
+        "internal_cg_atol": 1e-12,
+        "maxiter": 40000,
+        "preconditioner": "pyamg_smoothed_aggregation_v_cycle"
+      },
+      "dofs": 1674731,
+      "tetrahedra": 8124909,
+      "conductivity_model": "isotropic_scalar",
+      "relative_residual": 7.141939138446859e-09,
+      "relative_current_balance": 3.469446951953614e-17,
+      "convergence_evidence": false
+    },
+    {
+      "offset_mm": 20,
+      "field_sha256": "2c74365e69973e4e18171f8bd6be54e8f326735f962ecb5790d61d41a7845cbf",
+      "spec_sha256": "d53f40d07a3d26072d528c26b142dd6fd256e8b1b97a0a8f7c7d200307601f6f",
+      "solver": "DOLFINx assembly + SciPy CG with pinned gauge and weighted-mean correction",
+      "solver_tolerances": {
+        "internal_cg_rtol": 5e-09,
+        "internal_cg_atol": 1e-12,
+        "maxiter": 40000,
+        "preconditioner": "pyamg_smoothed_aggregation_v_cycle"
+      },
+      "dofs": 1674731,
+      "tetrahedra": 8124909,
+      "conductivity_model": "isotropic_scalar",
+      "relative_residual": 7.108098741929896e-09,
+      "relative_current_balance": 3.469446951953614e-17,
+      "convergence_evidence": false
+    },
+    {
+      "offset_mm": 100,
+      "field_sha256": "b923606a0c2a6884beac4134604f608ed8408ceb6d60449d262b8b832a2479e7",
+      "spec_sha256": "810f9a106bd77d60bbf5b0f4187faa10ff3e09ede65ce6651c485ff45f007a75",
+      "solver": "DOLFINx assembly + SciPy CG with pinned gauge and weighted-mean correction",
+      "solver_tolerances": {
+        "internal_cg_rtol": 5e-09,
+        "internal_cg_atol": 1e-12,
+        "maxiter": 40000,
+        "preconditioner": "pyamg_smoothed_aggregation_v_cycle"
+      },
+      "dofs": 1674731,
+      "tetrahedra": 8124909,
+      "conductivity_model": "isotropic_scalar",
+      "relative_residual": 3.824127741115614e-09,
+      "relative_current_balance": 3.469446951953614e-17,
+      "convergence_evidence": false
+    }
+  ],
+  "boundary": "archived field-generation receipts; no new FEM solves"
+}
