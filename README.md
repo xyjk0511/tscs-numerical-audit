@@ -76,4 +76,8 @@ institutional approval, exemption or formal determination for this analysis.
 `manifests/release_manifest.json` records every scientific/code release member,
 source lineage, license and original/public hash. `sanitization_record.json`
 records metadata-only changes. `assets.json` records archive sizes and hashes.
+`metadata_identity_validation.json` supplies paired original/public dataset
+digests and confirms that each changed value was a complete filesystem locator;
+the four changed code literals are `Path` defaults, with all other AST nodes
+unchanged. Explicit external-input paths are needed for those ancillary defaults.
 No private repository history or frozen original is changed by this release.
